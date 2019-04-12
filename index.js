@@ -39,7 +39,7 @@ io.on('connection',(socket) =>{
 })
 
 app.set('appName','App de usuarios')
-const port = proccess.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 app.set('view engine','ejs')
 
 app.use(bodyParser.json())
